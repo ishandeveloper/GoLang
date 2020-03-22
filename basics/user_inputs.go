@@ -8,7 +8,6 @@ import (
 	"strings"
 )
 
-// imports fmt,bufio,os,strconv,strings
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter Your Name & Age : ")

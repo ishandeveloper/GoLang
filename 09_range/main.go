@@ -29,4 +29,8 @@ func main() {
 		fmt.Printf("%s: %s\n", k, v)
 	}
 
+	for k := range emails {
+		fmt.Println("Name: " + k)
+	}
+
 }

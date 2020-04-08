@@ -18,4 +18,8 @@ func main() {
 	fmt.Println(emails)
 	fmt.Println(len(emails))
 	fmt.Println(emails["Bob"])
+
+	// Delete from map
+	delete(emails, "Bob")
+
 }

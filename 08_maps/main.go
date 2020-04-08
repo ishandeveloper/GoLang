@@ -17,4 +17,5 @@ func main() {
 	emails["Mike"] = "mike@gmail.com"
 	fmt.Println(emails)
 	fmt.Println(len(emails))
+	fmt.Println(emails["Bob"])
 }

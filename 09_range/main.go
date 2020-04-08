@@ -20,5 +20,5 @@ func main() {
 	for _, id := range ids {
 		sum += id
 	}
-
+	fmt.Println("Sum", sum)
 }

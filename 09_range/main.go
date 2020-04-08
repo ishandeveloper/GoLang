@@ -14,4 +14,11 @@ func main() {
 	for _, id := range ids {
 		fmt.Printf("ID: %d\n", id)
 	}
+
+	// Add ids together
+	sum := 0
+	for _, id := range ids {
+		sum += id
+	}
+
 }

@@ -19,6 +19,14 @@ func main() {
 	var age int32 = 37
 	const isCool = true
 	var size float32 = 2.3
+    
+    // Shorthand
+	// name := "Ishan"
+	// email := "ishandeveloper@outlook.com"
 
+	name, email := "Ishan", "ishandeveloper@outlook.com"
+
+	fmt.Println(name, age, isCool, email)
+	fmt.Printf("%T\n", size)
 	
 }

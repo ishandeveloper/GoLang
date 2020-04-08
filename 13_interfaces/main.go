@@ -8,3 +8,7 @@ type Shape interface {
 type Circle struct {
 	x, y, radius float64
 }
+
+type Rectangle struct {
+	width, height float64
+}

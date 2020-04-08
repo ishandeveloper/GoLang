@@ -28,3 +28,8 @@ func (r Rectangle) area() float64 {
 func getArea(s Shape) float64 {
 	return s.area()
 }
+func main() {
+	circle := Circle{x: 0, y: 0, radius: 5}
+	rectangle := Rectangle{width: 10, height: 5}
+
+}

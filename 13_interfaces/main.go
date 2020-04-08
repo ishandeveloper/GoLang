@@ -1,5 +1,6 @@
 package main
 
-func main() {
-
+// Define interface
+type Shape interface {
+	area() float64
 }

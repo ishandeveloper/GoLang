@@ -38,5 +38,7 @@ func (p *Person) getMarried(spouseLastName string) {
 func main() {
 	// Init person using struct
 	person1 := Person{firstName: "Samantha", lastName: "Smith", city: "Boston", gender: "f", age: 25}
+	// Alternative
+	person2 := Person{"Bob", "Johnson", "New York", "m", 30}
 
 }

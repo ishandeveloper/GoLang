@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// Define map
-	emails := make(map[string]string)
+	// emails := make(map[string]string)
 
 	//  Assign kv
 	// emails["Bob"] = "bob@gmail.com"

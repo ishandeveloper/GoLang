@@ -12,5 +12,5 @@ func getSum(num1, num2 int) int {
 
 func main() {
 	fmt.Println(greeting("Ishan"))
-	fmt.Println(getSum(8 + 12))
+	fmt.Println(getSum(8, 12))
 }

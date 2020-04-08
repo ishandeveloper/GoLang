@@ -30,7 +30,7 @@ func (p *Person) hasBirthday() {
 // getMarried (pointer reciever)
 func (p *Person) getMarried(spouseLastName string) {
 	if p.gender == "m" {
-		return
+
 	} else {
 		p.lastName = spouseLastName
 	}

@@ -7,5 +7,10 @@ func main() {
 	b := &a
 
 	fmt.Println(a, b)
+	fmt.Printf("%T\n", b)
+
+	//  Use * to read val from address
+	fmt.Println(*b)
+	fmt.Println(*&a)
 
 }

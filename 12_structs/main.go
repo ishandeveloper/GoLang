@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 )
 
@@ -40,5 +41,8 @@ func main() {
 	person1 := Person{firstName: "Samantha", lastName: "Smith", city: "Boston", gender: "f", age: 25}
 	// Alternative
 	person2 := Person{"Bob", "Johnson", "New York", "m", 30}
+	fmt.Println(person1.firstName)
+	person1.age++
+	fmt.Println(person1)
 
 }

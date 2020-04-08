@@ -18,3 +18,17 @@ type Person struct {
 func (p Person) greet() string {
 	return "Hello, my name is " + p.firstName + " " + p.lastName + " and I am " + strconv.Itoa(p.age)
 }
+
+// hasBirthday method (pointer reciever)
+func (p *Person) hasBirthday() {
+	p.age++
+}
+
+// getMarried (pointer reciever)
+func (p *Person) getMarried(spouseLastName string) {
+	if p.gender == "m" {
+		return
+	} else {
+		p.lastName = spouseLastName
+	}
+}

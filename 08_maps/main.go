@@ -5,7 +5,12 @@ func main() {
 	emails := make(map[string]string)
 
 	//  Assign kv
-	emails["Bob"] = "bob@gmail.com"
-	emails["Sharon"] = "sharon@gmail.com"
+	// emails["Bob"] = "bob@gmail.com"
+	// emails["Sharon"] = "sharon@gmail.com"
+	// emails["Mike"] = "mike@gmail.com"
+
+	// Decalre map and add kv
+	emails := map[string]string{"Bob": "bob@gmail.com", "Sharon": "sharon@gmail.com"}
+
 	emails["Mike"] = "mike@gmail.com"
 }

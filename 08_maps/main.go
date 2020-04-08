@@ -21,5 +21,5 @@ func main() {
 
 	// Delete from map
 	delete(emails, "Bob")
-
+	fmt.Println(emails)
 }

@@ -1,6 +1,8 @@
 package main
 
-import "math"
+import (
+	"math"
+)
 
 // Define interface
 type Shape interface {
@@ -21,4 +23,8 @@ func (c Circle) area() float64 {
 
 func (r Rectangle) area() float64 {
 	return r.width * r.height
+}
+
+func getArea(s Shape) float64 {
+	return s.area()
 }

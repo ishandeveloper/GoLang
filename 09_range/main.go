@@ -9,4 +9,9 @@ func main() {
 	for i, id := range ids {
 		fmt.Printf("%d - ID: %d\n", i, id)
 	}
+
+	// Not using index
+	for _, id := range ids {
+		fmt.Printf("ID: %d\n", id)
+	}
 }

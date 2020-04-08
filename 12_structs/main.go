@@ -1,6 +1,8 @@
 package main
 
-import "strconv"
+import (
+	"strconv"
+)
 
 //Person struct
 type Person struct {
@@ -31,4 +33,10 @@ func (p *Person) getMarried(spouseLastName string) {
 	} else {
 		p.lastName = spouseLastName
 	}
+}
+
+func main() {
+	// Init person using struct
+	person1 := Person{firstName: "Samantha", lastName: "Smith", city: "Boston", gender: "f", age: 25}
+
 }
